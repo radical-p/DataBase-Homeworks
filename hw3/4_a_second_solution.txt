@@ -1,0 +1,1 @@
+ALTER TABLE film  ADD CONSTRAINT length_constraint CHECK (length >= 50) NOT VALID;
